@@ -126,7 +126,6 @@ a:hover {
 .gallery > img {
  grid-area: 1/1;
  transform-origin: 14rem 16rem;
- rm-origin: 12rem 15rem;
  animation: m 14s infinite linear;
 }
 .gallery > img:nth-child(2) {
