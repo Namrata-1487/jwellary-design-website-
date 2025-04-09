@@ -153,9 +153,10 @@ a:hover {
  flex-direction: column;
  justify-content: flex-end;
  align-items: center;
- background: linear-gradient(285deg, rgba(255, 255, 255, 1) 0%, rgba(4, 211, 224, 1) 0%, rgba(186, 57, 246, 1) 80%, rgba(220, 29, 241, 1) 50%);
- z-index: -1;
- box-shadow: 5px 10px gray;
+ background: linear-gradient(285deg, rgba(255, 255, 255, 1) 0%, rgba(4, 211, 224, 1) 0%, rgba(186, 57, 246, 1) 80%, rgba(220, 29, 241, 1) 100%);
+ z-index:1;
+  border-radius: 10px;
+box-shadow: 5px 10px 20px gray;
 }
 .card1 h3 {
  width: 18rem;
@@ -180,7 +181,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   background: linear-gradient(285deg, rgba(255, 255, 255, 1) 0%, rgba(4, 211, 224, 1) 0%, rgba(186, 57, 246, 1) 80%, rgba(220, 29, 241, 1) 100%);
-  z-index: -1;
+  z-index: 1;
  }
  .gallery {
   position: relative;
